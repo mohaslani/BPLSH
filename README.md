@@ -1,5 +1,5 @@
 # BPLSH
-a fast instance selection (Data reduction) for machine learning.
+A fast instance selection (Data reduction) for machine learning.
 
 Training classifiers, especially Support Vector Machines (SVM), on large datasets is usually slow due to their high time complexities.
 BPLSH addresses this limitation by selecting a small subset of the most representative training samples. BPLSH preserves instances that are near the decision boundaries and eliminates nonessential ones that are far from the decision boundaries.
